@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- FONTS  LINK-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<style>
+    #title-welcome {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #container-css-ingles {
+        margin-top: 40px;
+        font-family: Roboto Condensed;
+
+    }
+
+    #container-four-sessions {
+        display: flex;
+        justify-content: center;
+    }
+
+    #title-objectives,
+    #title-conditions {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    #container-img-reading,
+    #container-img-vocabulary,
+    #container-img-listening,
+    #container-img-writing {
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    #container-img-reading p,
+    #container-img-vocabulary p,
+    #container-img-listening p {
+        line-height: 0px;
+        font-weight: 500;
+    }
+
+    #container-img-writing p {
+        font-weight: 500;
+    }
+
+    #img-reading,
+    #img-vocabulary,
+    #img-listening,
+    #img-writing {
+        width: 90px;
+        margin-bottom: 12px;
+    }
+
+    body {
+        font-family: Roboto Condensed;
+    }
+
+    #container-card-objectives,
+    #container-card-aspects {
+        margin-right: 30px;
+        border-radius: 6px;
+        padding: 15px;
+        background-color: #FCFCFC;
+        /* offset-x | offset-y | blur-radius | color */
+        box-shadow: 3px 3px 8px #f3f3f3;
+    }
+
+    #container-objectives {
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+
+    #container-conditions {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+
+    #icon-objectives {
+        height: 70px;
+    }
+
+    #p-conditions {
+        font-weight: 300;
+        margin-top: 8px;
+    }
+
+    #row-four-sessions {
+        margin-top: 25px;
+    }
+
+    #title-four-sessions {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    #container-title-four-sessions {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #container-goodbye {
+        text-align: center;
+        margin-top: 40px;
+        background-color: #FCFCFC;
+        border-radius: 6px;
+        padding: 5px;
+    }
+
+    #container-goodbye p {
+        line-height: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+
+    @media(max-width: 996px) {
+        #row-cards{
+           
+        }
+
+    }
+</style>
+
+<body>
+
+    <div id="container-css-ingles">
+
+        <div id="title-welcome">
+            👋 Welcome to English I- ALE26- Final Test
+        </div>
+
+        <div class="container-sm mt-3">
+            <div class="row" id="row-cards">
+                <div class="col-6" id="container-card-objectives">
+                    <div id="title-objectives">
+                        This exercise evaluates the following objectives:
+                    </div>
+
+                    <div id="container-objectives">
+                        <img src="/img/icono-objectives.png" id="icon-objectives">
+
+                        <ul>
+                            <li>
+                                Describe aspects related to family, activities, routines, and biographical information
+                                in
+                                formal and
+                                informal contexts and situations, orally and in writing
+                            </li>
+                            <li>
+                                Give and ask for personal information using common expressions in both formal and
+                                informal
+                                settings,
+                                verbally and in writing
+                            </li>
+                            <li>
+                                Identify and report main ideas in oral and written texts
+                                Construct coherent short texts about local changes
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-5" id="container-card-aspects">
+                    <div id="title-conditions">
+                        Conditions of the activity
+                    </div>
+
+                    <p id="p-conditions">
+                        Each session evaluates aspects worked during the semester as well as your ability to
+                        communicate in English.
+                        Keep in mind the following aspects:
+
+
+                    </p>
+
+                    <div id="container-conditions">
+                        <img src="/img/icon-conditions.png" style="height: 70px;">
+
+                        <ul>
+                            <li>
+                                Follow instructions carefully
+                            </li>
+                            <li>
+                                Exam time: 2 hours
+                            </li>
+                            <li>
+                                Activities: individually
+                            </li>
+                            <li>
+                                Avoid unauthorized devices
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="container-title-four-sessions">
+            <p id="title-four-sessions">
+                During this test, you will find four sessions:
+            </p>
+        </div>
+
+
+
+        <div class="row" id="row-four-sessions">
+            <div class="col-12">
+
+                <div id="container-four-sessions">
+                    <div id="container-img-reading">
+                        <img src="/img/Leyendo_Mesa de trabajo 1.png" id="img-reading">
+                        <p>
+                            Reading
+                        </p>
+                        <p>
+                            comprehension.
+                        </p>
+                    </div>
+
+                    <div id="container-img-vocabulary">
+                        <img src="/img/hablando_Mesa de trabajo 1.png" id="img-vocabulary">
+                        <p>Vocabulary and </p>
+                        <p>language use.</p>
+                    </div>
+
+
+
+                    <div id="container-img-listening">
+                        <img src="/img/escucha_Mesa de trabajo 1.png" id="img-listening">
+                        <p>
+                            Listening
+                        </p>
+                        <p>
+                            comprehension.
+                        </p>
+                    </div>
+                    <div id="container-img-writing">
+                        <img src="/img/escribir_Mesa de trabajo 1.png" id="img-writing">
+                        <p>
+                            Writing.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="container-goodbye" class="container-sm">
+            <p>
+                We hope this exercise can help you see your progress in the language.
+
+            </p>
+            <p>
+                The best.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
